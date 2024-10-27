@@ -1,0 +1,67 @@
+.container{
+  height: 100%;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #F9FCFF;
+}
+.appName{
+  height: 80px;
+  display: grid;
+  place-items: center;
+}
+
+img{
+  height: 30px;
+}
+
+.SidebarList{
+  height: 100vh;
+  width: 100%;
+  flex-grow: 1; /* Allow the list to grow and fill-space*/ 
+}
+
+.row{
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(67, 145, 237, 0.1);
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: rgb(128, 128, 128);
+} 
+
+.row:hover{
+  color: black;
+  background-color:rgba(67, 145, 237, 0.1);
+}
+
+#icon{
+  flex:30%;
+  display: grid;
+  place-items: center;   
+}
+
+#title{
+  flex: 70%;
+}
+
+.logout{
+  color: red;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+/* .logout #icon{
+
+}
+
+.logout #title{
+  
+} */

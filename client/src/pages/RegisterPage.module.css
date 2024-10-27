@@ -1,0 +1,42 @@
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #17A2B8;
+}
+
+.image{
+    height: 180px;
+}
+
+.label{
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.text1{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.right{
+    width: 40%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}

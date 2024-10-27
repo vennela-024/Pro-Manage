@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.list{
+    background-color:rgba(67, 145, 237, 0.1);
+    height: 250px;
+    width: 40%;
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px; 
+}
+
+li::marker{
+    color: aqua;
+}
+
+#count{
+    font-weight: bold;
+}
