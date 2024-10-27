@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './RegisterPage.module.css'
-import robotImage from '../assets/robo.png';
-import Form from '../components/Form.jsx'
+import robotImage from '../../assets/robo.png';
+import Form from '../../components/Form.jsx'
 
 
 export default function RegisterPage() {
