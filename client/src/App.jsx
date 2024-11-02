@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<RegisterPage />} />
           <Route
-            path="/"
+            path=""
             element={
               <ProtectedLayout>
                 <Dashboard />

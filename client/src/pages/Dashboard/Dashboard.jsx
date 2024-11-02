@@ -3,10 +3,9 @@ import styles from './styles/Dashboard.module.css'
 
 
 export default function DashBoard() {
-  // Get today's date
+ 
   const today = new Date();
 
-  // Format the date
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   const formattedDate = today.toLocaleDateString(undefined, options);
 
