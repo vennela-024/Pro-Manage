@@ -1,4 +1,98 @@
-.container{
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.heading {
+    margin-bottom: 30px;
+}
+
+.form {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputContainer {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+}
+
+input {
+    width: 100%; /* Use 100% to fill the container */
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 35px; /* Space for left icon */
+    padding-right: 45px; /* Space for right eye icon */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.icon {
+    color: grey;
+    position: absolute;
+    left: 10px; /* Adjust position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevents click events on the icon */
+}
+
+.eyeIcon {
+    color: grey;
+    position: absolute;
+    right: 10px; /* Position the eye icon */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer; /* Change cursor to pointer on hover */
+    z-index: 1; /* Ensure the icon appears above the input field */
+}
+
+button {
+    width: 350px;
+    height: 40px;
+    color: white;
+    background-color: #17A2B8;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b7d8f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,7 +113,7 @@
 .input-container {
     position: relative;
     width: 100%;
-    max-width: 400px; /* Adjust as needed */
+    max-width: 400px; /* Adjust as needed 
 }
 
 input{
@@ -42,4 +136,4 @@ button{
 button:hover{
     background-color: #0b7d8f;
     
-}
+} */

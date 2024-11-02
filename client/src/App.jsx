@@ -11,9 +11,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<RegisterPage />} />
+          <Route path="/login" element={<RegisterPage />} />
           <Route
-            path="/dashboard"
+            path="/"
             element={
               <ProtectedLayout>
                 <Dashboard />
